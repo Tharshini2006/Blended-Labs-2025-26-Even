@@ -2,10 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
-
+* **Name**: THARSHINI M
+* **Register Number**:212224230287
+* **Date of Submission**:17.03.2026
 ---
 
 ## Objective
@@ -82,33 +81,36 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
+1. Logged into the AWS Management Console and launched a new EC2 instance using Amazon Linux 2 AMI, selected instance type, created key pair, and configured security group.
+2. Modified the security group to allow SSH (port 22) and MySQL port (3306) for database access.
+3. Connected to the EC2 instance using SSH from my local system using the key pair.
+4. Installed the MySQL database server using package manager commands (sudo yum install mysql-server).
+5. Started the MySQL service and enabled it, then secured the installation by setting a root password and configuring basic settings.
+6. Created a sample database and table using SQL commands and inserted sample records.
+7. Tested the database by running queries to retrieve data and verified that the database server was working correctly.
 ---
+
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1920" height="1080" alt="Screenshot 2026-03-12 103617" src="https://github.com/user-attachments/assets/f701b3b3-31eb-4b1c-8508-812bd662516f" />
+
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1920" height="1080" alt="Screenshot 2026-03-12 104211" src="https://github.com/user-attachments/assets/90e243a7-5125-49db-b61a-76dbf917e4b4" />
+
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1920" height="1080" alt="Screenshot 2026-03-12 104754" src="https://github.com/user-attachments/assets/66975846-d3ab-4977-82d2-0f5c1c57c899" />
+
 
 ---
 
