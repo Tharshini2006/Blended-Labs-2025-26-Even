@@ -3,7 +3,9 @@
 ## Title
 
 Scale and Load Balance Your Architecture
-Author : your name   Reg no : yours   Date :
+Author : THARSHINI M
+Reg no :212224230287
+Date :17.03.2026
 
 ---
 
@@ -66,11 +68,31 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 ## Workflow (To be filled by Student)
 
-Describe step-by-step how you performed this experiment in your own words.
-
----
+1. Logged into the AWS Management Console and reviewed the existing EC2 architecture created in previous labs.
+2. Created a Launch Template by selecting an AMI, instance type, key pair, security group, and added user data for application setup.
+3. Configured an Auto Scaling Group (ASG) using the launch template and set minimum, desired, and maximum number of instances.
+4. Created an Application Load Balancer (ALB) and configured listeners and a target group.
+5. Attached the Auto Scaling Group to the target group so that traffic is distributed across instances.
+6. Set up scaling policies using CloudWatch alarms based on CPU utilization (scale out and scale in conditions).
+7. Generated traffic to test the system and observed automatic scaling and load balancing across EC2 instances.
+8. Verified fault tolerance by stopping an instance and confirming that the ASG launched a new instance automatically.
 
 ## Output Screenshots 
+<img width="1920" height="1080" alt="Screenshot 2026-03-12 110211" src="https://github.com/user-attachments/assets/c9d3bc1c-245d-4678-8db9-159da4915053" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-12 110602" src="https://github.com/user-attachments/assets/5ae2e351-c6fd-463f-956b-5ee145e464d2" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-12 111737" src="https://github.com/user-attachments/assets/2b99bd4c-c30f-45f2-b477-5b3db3b8cae0" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-12 112640" src="https://github.com/user-attachments/assets/b4116d53-071a-465f-8adf-76f84f2f13a1" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-12 113838" src="https://github.com/user-attachments/assets/e235b33f-655d-4eb6-a09f-6d743645366d" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-12 115021" src="https://github.com/user-attachments/assets/38869efc-c16a-4c38-9676-e0b2cd7123f7" />
+
+
+
+
 
 
 ---
